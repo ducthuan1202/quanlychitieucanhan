@@ -6,8 +6,10 @@ $(document).ready(() => {
     minYear: 1901,
     maxYear: parseInt(moment().format('YYYY'), 10),
     locale: {
-      format: "YYYY-MM-DD",
+      format: "YYYY-MM-DD HH:mm",
     },
+    timePicker24Hour: true,
+    timePicker: true,
     autoApply: true,
     autoUpdateInput: true,
   });
